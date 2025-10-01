@@ -18,8 +18,8 @@ public class Main extends ConsoleProgram {
         // === START WRITING YOUR CODE BELOW THIS LINE ===
 
         // Example program: prompt user and print greeting
-        String name = readLine("Enter your name: ");
-        println("Hello, " + name + "!");
+        int age = readInt("What is your age? ");
+        System.out.println("Your age is " + age);
 
         // === END OF YOUR CODE ===
     }
